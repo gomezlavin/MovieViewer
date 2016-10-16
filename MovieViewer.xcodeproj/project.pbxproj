@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		03319DD07195B2DAC82756C0 /* Pods_MovieViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DBEDF5B10ED658191FE7DEA /* Pods_MovieViewer.framework */; };
+		FE2AFE7A1DB2E754001D66AD /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2AFE791DB2E754001D66AD /* DetailViewController.swift */; };
 		FEC27D7F1DB1FCEA0008C303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC27D7E1DB1FCEA0008C303 /* AppDelegate.swift */; };
 		FEC27D841DB1FCEA0008C303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC27D821DB1FCEA0008C303 /* Main.storyboard */; };
 		FEC27D861DB1FCEA0008C303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEC27D851DB1FCEA0008C303 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		1B9878421DF8CE4EDB89E0E7 /* Pods-MovieViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.debug.xcconfig"; sourceTree = "<group>"; };
 		6DBEDF5B10ED658191FE7DEA /* Pods_MovieViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD0AEB0305760459D6D97A1F /* Pods-MovieViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-MovieViewer/Pods-MovieViewer.release.xcconfig"; sourceTree = "<group>"; };
+		FE2AFE791DB2E754001D66AD /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FEC27D7B1DB1FCEA0008C303 /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEC27D7E1DB1FCEA0008C303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEC27D831DB1FCEA0008C303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				FEC27D901DB200CE0008C303 /* MoviesViewController.swift */,
+				FE2AFE791DB2E754001D66AD /* DetailViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				FEC27D7F1DB1FCEA0008C303 /* AppDelegate.swift in Sources */,
 				FEC27D911DB200CE0008C303 /* MoviesViewController.swift in Sources */,
 				FEC27D941DB2B6010008C303 /* MovieCell.swift in Sources */,
+				FE2AFE7A1DB2E754001D66AD /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +281,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -326,6 +331,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

@@ -34,7 +34,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-My main challenge was time management.  I had to move apartments over the weekend and I should have started earlier during the week to be able to attempt all the optionals.  Lesson learnt for week 2.
+I didn't have time to do the segemented control nor the search bar optionals, and couldn't figure out the low-res-image-first optional.
+My main challenge was time management, since I had to move apartments over the weekend and underestimated the time this project would take me.
 
 ## License
 
